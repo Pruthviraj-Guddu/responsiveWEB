@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Responsive Image Grid</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgd.aeplcdn.com%2F370x208%2Fcw%2Fec%2F37710%2FMaruti-Suzuki-Baleno-Right-Front-Three-Quarter-147420.jpg%3Fwm%3D0&imgrefurl=https%3A%2F%2Fwww.carwale.com%2Fimages%2F&docid=qNxQnNETYltKCM&tbnid=MXYEsf1R4HIp5M%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA..i&w=370&h=208&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA&iact=mrc&uact=8" style="width:100%">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fdrop.ndtv.com%2Falbums%2FAUTO%2FHyundai_Grand_i_637025058359468841%2F637025058359468841_640x480.png&imgrefurl=http%3A%2F%2Fauto.ndtv.com%2Fphotos&docid=8RMblHm5axT5KM&tbnid=ogm52KGyzDN3UM%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY..i&w=640&h=480&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY&iact=mrc&uact=8" style="width:100%">
+    <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg" style="width:100%">
+    <img src="https://images.pexels.com/photos/381292/pexels-photo-381292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%">
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgd.aeplcdn.com%2F370x208%2Fcw%2Fec%2F37710%2FMaruti-Suzuki-Baleno-Right-Front-Three-Quarter-147420.jpg%3Fwm%3D0&imgrefurl=https%3A%2F%2Fwww.carwale.com%2Fimages%2F&docid=qNxQnNETYltKCM&tbnid=MXYEsf1R4HIp5M%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA..i&w=370&h=208&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA&iact=mrc&uact=8" style="width:100%">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fdrop.ndtv.com%2Falbums%2FAUTO%2FHyundai_Grand_i_637025058359468841%2F637025058359468841_640x480.png&imgrefurl=http%3A%2F%2Fauto.ndtv.com%2Fphotos&docid=8RMblHm5axT5KM&tbnid=ogm52KGyzDN3UM%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY..i&w=640&h=480&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY&iact=mrc&uact=8" style="width:100%">
+    <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg" style="width:100%">
+    <img src="https://images.pexels.com/photos/381292/pexels-photo-381292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%">  </div>
+  <div class="column">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgd.aeplcdn.com%2F370x208%2Fcw%2Fec%2F37710%2FMaruti-Suzuki-Baleno-Right-Front-Three-Quarter-147420.jpg%3Fwm%3D0&imgrefurl=https%3A%2F%2Fwww.carwale.com%2Fimages%2F&docid=qNxQnNETYltKCM&tbnid=MXYEsf1R4HIp5M%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA..i&w=370&h=208&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA&iact=mrc&uact=8" style="width:100%">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fdrop.ndtv.com%2Falbums%2FAUTO%2FHyundai_Grand_i_637025058359468841%2F637025058359468841_640x480.png&imgrefurl=http%3A%2F%2Fauto.ndtv.com%2Fphotos&docid=8RMblHm5axT5KM&tbnid=ogm52KGyzDN3UM%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY..i&w=640&h=480&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY&iact=mrc&uact=8" style="width:100%">
+    <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg" style="width:100%">
+    <img src="https://images.pexels.com/photos/381292/pexels-photo-381292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%">
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgd.aeplcdn.com%2F370x208%2Fcw%2Fec%2F37710%2FMaruti-Suzuki-Baleno-Right-Front-Three-Quarter-147420.jpg%3Fwm%3D0&imgrefurl=https%3A%2F%2Fwww.carwale.com%2Fimages%2F&docid=qNxQnNETYltKCM&tbnid=MXYEsf1R4HIp5M%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA..i&w=370&h=208&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA&iact=mrc&uact=8" style="width:100%">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fdrop.ndtv.com%2Falbums%2FAUTO%2FHyundai_Grand_i_637025058359468841%2F637025058359468841_640x480.png&imgrefurl=http%3A%2F%2Fauto.ndtv.com%2Fphotos&docid=8RMblHm5axT5KM&tbnid=ogm52KGyzDN3UM%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY..i&w=640&h=480&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY&iact=mrc&uact=8" style="width:100%">
+    <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg" style="width:100%">
+    <img src="https://images.pexels.com/photos/381292/pexels-photo-381292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%">  </div> 
+  <div class="column">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgd.aeplcdn.com%2F370x208%2Fcw%2Fec%2F37710%2FMaruti-Suzuki-Baleno-Right-Front-Three-Quarter-147420.jpg%3Fwm%3D0&imgrefurl=https%3A%2F%2Fwww.carwale.com%2Fimages%2F&docid=qNxQnNETYltKCM&tbnid=MXYEsf1R4HIp5M%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA..i&w=370&h=208&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA&iact=mrc&uact=8" style="width:100%">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fdrop.ndtv.com%2Falbums%2FAUTO%2FHyundai_Grand_i_637025058359468841%2F637025058359468841_640x480.png&imgrefurl=http%3A%2F%2Fauto.ndtv.com%2Fphotos&docid=8RMblHm5axT5KM&tbnid=ogm52KGyzDN3UM%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY..i&w=640&h=480&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY&iact=mrc&uact=8" style="width:100%">
+    <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg" style="width:100%">
+    <img src="https://images.pexels.com/photos/381292/pexels-photo-381292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%">
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgd.aeplcdn.com%2F370x208%2Fcw%2Fec%2F37710%2FMaruti-Suzuki-Baleno-Right-Front-Three-Quarter-147420.jpg%3Fwm%3D0&imgrefurl=https%3A%2F%2Fwww.carwale.com%2Fimages%2F&docid=qNxQnNETYltKCM&tbnid=MXYEsf1R4HIp5M%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA..i&w=370&h=208&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA&iact=mrc&uact=8" style="width:100%">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fdrop.ndtv.com%2Falbums%2FAUTO%2FHyundai_Grand_i_637025058359468841%2F637025058359468841_640x480.png&imgrefurl=http%3A%2F%2Fauto.ndtv.com%2Fphotos&docid=8RMblHm5axT5KM&tbnid=ogm52KGyzDN3UM%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY..i&w=640&h=480&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY&iact=mrc&uact=8" style="width:100%">
+    <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg" style="width:100%">
+    <img src="https://images.pexels.com/photos/381292/pexels-photo-381292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%">  </div>
+  </div>
+  <div class="column">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgd.aeplcdn.com%2F370x208%2Fcw%2Fec%2F37710%2FMaruti-Suzuki-Baleno-Right-Front-Three-Quarter-147420.jpg%3Fwm%3D0&imgrefurl=https%3A%2F%2Fwww.carwale.com%2Fimages%2F&docid=qNxQnNETYltKCM&tbnid=MXYEsf1R4HIp5M%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA..i&w=370&h=208&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA&iact=mrc&uact=8" style="width:100%">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fdrop.ndtv.com%2Falbums%2FAUTO%2FHyundai_Grand_i_637025058359468841%2F637025058359468841_640x480.png&imgrefurl=http%3A%2F%2Fauto.ndtv.com%2Fphotos&docid=8RMblHm5axT5KM&tbnid=ogm52KGyzDN3UM%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY..i&w=640&h=480&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY&iact=mrc&uact=8" style="width:100%">
+    <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg" style="width:100%">
+    <img src="https://images.pexels.com/photos/381292/pexels-photo-381292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%">
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgd.aeplcdn.com%2F370x208%2Fcw%2Fec%2F37710%2FMaruti-Suzuki-Baleno-Right-Front-Three-Quarter-147420.jpg%3Fwm%3D0&imgrefurl=https%3A%2F%2Fwww.carwale.com%2Fimages%2F&docid=qNxQnNETYltKCM&tbnid=MXYEsf1R4HIp5M%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA..i&w=370&h=208&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwh4KAAwAA&iact=mrc&uact=8" style="width:100%">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fdrop.ndtv.com%2Falbums%2FAUTO%2FHyundai_Grand_i_637025058359468841%2F637025058359468841_640x480.png&imgrefurl=http%3A%2F%2Fauto.ndtv.com%2Fphotos&docid=8RMblHm5axT5KM&tbnid=ogm52KGyzDN3UM%3A&vet=10ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY..i&w=640&h=480&bih=721&biw=1280&q=car%20images&ved=0ahUKEwiz2srdjornAhUSWX0KHXvECeEQMwiEASgGMAY&iact=mrc&uact=8" style="width:100%">
+    <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg" style="width:100%">
+    <img src="https://images.pexels.com/photos/381292/pexels-photo-381292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%">  </div>
+</div>
+
+</body>
+</html>
